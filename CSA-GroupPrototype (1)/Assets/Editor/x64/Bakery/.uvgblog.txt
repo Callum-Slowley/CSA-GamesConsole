@@ -1,0 +1,1694 @@
+2022-2-14
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_10" 4 0 0 batchpointlight_0_0_10.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ProcGenTest_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ProcGenTest_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ProcGenTest_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ProcGenTest_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ProcGenTest_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ProcGenTest_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ProcGenTest_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LMA6.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_6_0_10" 4 0 6 batchpointlight_6_0_10.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_4_0_10" 4 0 4 batchpointlight_4_0_10.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_7_0_10" 4 0 7 batchpointlight_7_0_10.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_3_0_10" 4 0 3 batchpointlight_3_0_10.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_10" 4 0 0 batchpointlight_0_0_10.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_10" 4 0 2 batchpointlight_2_0_10.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_5_0_10" 4 0 5 batchpointlight_5_0_10.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_10" 4 0 1 batchpointlight_1_0_10.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA6_diffuse" 4 16 6 "gi_ProcGenTest_LMA60.bin" "ProcGenTest_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA4_diffuse" 4 16 4 "gi_ProcGenTest_LMA40.bin" "ProcGenTest_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA7_diffuse" 4 16 7 "gi_ProcGenTest_LMA70.bin" "ProcGenTest_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA3_diffuse" 4 16 3 "gi_ProcGenTest_LMA30.bin" "ProcGenTest_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_diffuse" 4 16 2 "gi_ProcGenTest_LMA20.bin" "ProcGenTest_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA5_diffuse" 4 16 5 "gi_ProcGenTest_LMA50.bin" "ProcGenTest_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_diffuse" 4 16 1 "gi_ProcGenTest_LMA10.bin" "ProcGenTest_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA6_diffuse" 4 16 6 "gi_ProcGenTest_LMA61.bin" "ProcGenTest_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA4_diffuse" 4 16 4 "gi_ProcGenTest_LMA41.bin" "ProcGenTest_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA7_diffuse" 4 16 7 "gi_ProcGenTest_LMA71.bin" "ProcGenTest_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA3_diffuse" 4 16 3 "gi_ProcGenTest_LMA31.bin" "ProcGenTest_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_diffuse" 4 16 2 "gi_ProcGenTest_LMA21.bin" "ProcGenTest_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA5_diffuse" 4 16 5 "gi_ProcGenTest_LMA51.bin" "ProcGenTest_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_diffuse" 4 16 1 "gi_ProcGenTest_LMA11.bin" "ProcGenTest_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA6_diffuse" 4 16 6 "gi_ProcGenTest_LMA62.bin" "ProcGenTest_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA4_diffuse" 4 16 4 "gi_ProcGenTest_LMA42.bin" "ProcGenTest_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA7_diffuse" 4 16 7 "gi_ProcGenTest_LMA72.bin" "ProcGenTest_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA3_diffuse" 4 16 3 "gi_ProcGenTest_LMA32.bin" "ProcGenTest_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_diffuse" 4 16 2 "gi_ProcGenTest_LMA22.bin" "ProcGenTest_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA5_diffuse" 4 16 5 "gi_ProcGenTest_LMA52.bin" "ProcGenTest_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_diffuse" 4 16 1 "gi_ProcGenTest_LMA12.bin" "ProcGenTest_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA6_diffuse" 4 16 6 "gi_ProcGenTest_LMA63.bin" "ProcGenTest_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA4_diffuse" 4 16 4 "gi_ProcGenTest_LMA43.bin" "ProcGenTest_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA7_diffuse" 4 16 7 "gi_ProcGenTest_LMA73.bin" "ProcGenTest_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA3_diffuse" 4 16 3 "gi_ProcGenTest_LMA33.bin" "ProcGenTest_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_diffuse" 4 16 2 "gi_ProcGenTest_LMA23.bin" "ProcGenTest_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA5_diffuse" 4 16 5 "gi_ProcGenTest_LMA53.bin" "ProcGenTest_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_diffuse" 4 16 1 "gi_ProcGenTest_LMA13.bin" "ProcGenTest_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA6_final" 4 16 6 "gi_ProcGenTest_LMA64.bin" "ProcGenTest_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA4_final" 4 16 4 "gi_ProcGenTest_LMA44.bin" "ProcGenTest_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA7_final" 4 16 7 "gi_ProcGenTest_LMA74.bin" "ProcGenTest_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA3_final" 4 16 3 "gi_ProcGenTest_LMA34.bin" "ProcGenTest_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_final" 4 16 2 "gi_ProcGenTest_LMA24.bin" "ProcGenTest_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA5_final" 4 16 5 "gi_ProcGenTest_LMA54.bin" "ProcGenTest_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_final" 4 16 1 "gi_ProcGenTest_LMA14.bin" "ProcGenTest_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA6_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA6_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "6" "ProcGenTest_LMA6_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA4_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "4" "ProcGenTest_LMA4_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA7_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA7_final_HDR.lz4" 64 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "7" "ProcGenTest_LMA7_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA3_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA3_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "3" "ProcGenTest_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA2_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA2_final_HDR.lz4" 256 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "2" "ProcGenTest_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA5_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA5_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "5" "ProcGenTest_LMA5_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "ProcGenTest_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA6_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LMA6_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA7_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA3_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA2_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA5_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LMA1_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ProcGenTest_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for ProcGenTest_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_9" 4 0 0 batchpointlight_0_0_9.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_9" 4 0 2 batchpointlight_2_0_9.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_9" 4 0 1 batchpointlight_1_0_9.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_diffuse" 4 16 2 "gi_ProcGenTest_LMA20.bin" "ProcGenTest_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_diffuse" 4 16 1 "gi_ProcGenTest_LMA10.bin" "ProcGenTest_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_diffuse" 4 16 2 "gi_ProcGenTest_LMA21.bin" "ProcGenTest_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_diffuse" 4 16 1 "gi_ProcGenTest_LMA11.bin" "ProcGenTest_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_diffuse" 4 16 2 "gi_ProcGenTest_LMA22.bin" "ProcGenTest_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_diffuse" 4 16 1 "gi_ProcGenTest_LMA12.bin" "ProcGenTest_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_diffuse" 4 16 2 "gi_ProcGenTest_LMA23.bin" "ProcGenTest_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_diffuse" 4 16 1 "gi_ProcGenTest_LMA13.bin" "ProcGenTest_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA2_final" 4 16 2 "gi_ProcGenTest_LMA24.bin" "ProcGenTest_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LMA1_final" 4 16 1 "gi_ProcGenTest_LMA14.bin" "ProcGenTest_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA2_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "2" "ProcGenTest_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "ProcGenTest_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA2_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LMA1_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_28" 4 0 0 batchpointlight_0_0_28.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_26" 4 0 0 batchpointlight_0_0_26.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_26" 4 0 0 batchpointlight_0_0_26.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_27" 4 0 0 batchpointlight_0_0_27.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_27" 4 0 0 batchpointlight_0_0_27.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_27" 4 0 0 batchpointlight_0_0_27.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_28" 4 0 0 batchpointlight_0_0_28.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_28" 4 0 0 batchpointlight_0_0_28.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context inLoaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_28" 4 0 0 batchpointlight_0_0_28.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+ 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+2022-3-14
+Rendering UV GBuffer for ProcGenTest_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_ProcGenTest_LM0.lz4" 2 0 0 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_27" 4 0 0 batchpointlight_0_0_27.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM00.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM01.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM02.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_diffuse" 4 16 0 "gi_ProcGenTest_LM03.bin" "ProcGenTest_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "ProcGenTest_LM0_final" 4 16 0 "gi_ProcGenTest_LM04.bin" "ProcGenTest_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "ProcGenTest_LM0_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/ProcGenTest_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/ProcGenTest_LM0_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA4.lz4" 2 0 4 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_7" 4 0 2 batchpointlight_2_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_3_0_7" 4 0 3 batchpointlight_3_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_5_0_7" 4 0 5 batchpointlight_5_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_4_0_7" 4 0 4 batchpointlight_4_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM00.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA2_diffuse" 4 16 2 "gi_MainMenu_LMA20.bin" "MainMenu_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA10.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA3_diffuse" 4 16 3 "gi_MainMenu_LMA30.bin" "MainMenu_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA5_diffuse" 4 16 5 "gi_MainMenu_LMA50.bin" "MainMenu_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 4 "gi_MainMenu_LMA40.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM01.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA2_diffuse" 4 16 2 "gi_MainMenu_LMA21.bin" "MainMenu_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA11.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA3_diffuse" 4 16 3 "gi_MainMenu_LMA31.bin" "MainMenu_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA5_diffuse" 4 16 5 "gi_MainMenu_LMA51.bin" "MainMenu_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 4 "gi_MainMenu_LMA41.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM02.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA2_diffuse" 4 16 2 "gi_MainMenu_LMA22.bin" "MainMenu_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA12.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA3_diffuse" 4 16 3 "gi_MainMenu_LMA32.bin" "MainMenu_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA5_diffuse" 4 16 5 "gi_MainMenu_LMA52.bin" "MainMenu_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 4 "gi_MainMenu_LMA42.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM03.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA2_diffuse" 4 16 2 "gi_MainMenu_LMA23.bin" "MainMenu_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA13.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA3_diffuse" 4 16 3 "gi_MainMenu_LMA33.bin" "MainMenu_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA5_diffuse" 4 16 5 "gi_MainMenu_LMA53.bin" "MainMenu_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 4 "gi_MainMenu_LMA43.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_final" 4 16 0 "gi_MainMenu_LM04.bin" "MainMenu_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA2_final" 4 16 2 "gi_MainMenu_LMA24.bin" "MainMenu_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_final" 4 16 1 "gi_MainMenu_LMA14.bin" "MainMenu_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA3_final" 4 16 3 "gi_MainMenu_LMA34.bin" "MainMenu_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA5_final" 4 16 5 "gi_MainMenu_LMA54.bin" "MainMenu_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_final" 4 16 4 "gi_MainMenu_LMA44.bin" "MainMenu_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "MainMenu_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA2_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "2" "MainMenu_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA1_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "MainMenu_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA3_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "3" "MainMenu_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA5_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA5_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "5" "MainMenu_LMA5_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "4" "MainMenu_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA2_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA3_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA5_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA4_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA4.lz4" 2 0 1 0
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-669150417_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-669150417_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM00.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA40.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM01.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA41.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM02.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA42.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM03.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA43.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_final" 4 16 0 "gi_MainMenu_LM04.bin" "MainMenu_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_final" 4 16 1 "gi_MainMenu_LMA44.bin" "MainMenu_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "MainMenu_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "MainMenu_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA4_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA4.lz4" 2 0 1 0
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM00.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA40.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM01.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA41.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM02.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA42.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM03.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA43.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_final" 4 16 0 "gi_MainMenu_LM04.bin" "MainMenu_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_final" 4 16 1 "gi_MainMenu_LMA44.bin" "MainMenu_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "MainMenu_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "MainMenu_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA4_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA4.lz4" 2 0 1 0
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM00.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA40.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM01.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA41.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM02.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA42.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM03.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA43.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_final" 4 16 0 "gi_MainMenu_LM04.bin" "MainMenu_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_final" 4 16 1 "gi_MainMenu_LMA44.bin" "MainMenu_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "MainMenu_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "MainMenu_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA4_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA4.lz4" 2 0 1 0
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM00.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA40.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM01.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA41.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM02.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA42.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM03.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA43.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_final" 4 16 0 "gi_MainMenu_LM04.bin" "MainMenu_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_final" 4 16 1 "gi_MainMenu_LMA44.bin" "MainMenu_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "MainMenu_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "MainMenu_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA4_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA4.lz4" 2 0 1 0
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM00.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA40.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM01.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA41.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM02.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA42.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM03.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_diffuse" 4 16 1 "gi_MainMenu_LMA43.bin" "MainMenu_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_final" 4 16 0 "gi_MainMenu_LM04.bin" "MainMenu_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA4_final" 4 16 1 "gi_MainMenu_LMA44.bin" "MainMenu_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "MainMenu_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "MainMenu_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA4_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX arealightprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_2" 1924 0 2 lights0.bin
+Running ftraceRTX batchpointlightprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_7" 1924 0 2 batchpointlight_2_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX texgiprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\jppri\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA1.lz4" 2 0 1 0
+Running ftraceRTX arealightprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_2" 1924 0 2 lights0.bin
+Running ftraceRTX batchpointlightprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_7" 1924 0 2 batchpointlight_2_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM00.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA10.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM01.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA11.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM02.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA12.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM03.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA13.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_final" 4 16 0 "gi_MainMenu_LM04.bin" "MainMenu_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_final" 4 16 1 "gi_MainMenu_LMA14.bin" "MainMenu_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\jppri\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "MainMenu_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA1_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "MainMenu_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA1_final.hdr" 1024
+Done
+Done
+Done
+Done
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX arealightprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_2" 1924 0 2 lights0.bin
+Running ftraceRTX batchpointlightprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_7" 1924 0 2 batchpointlight_2_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX texgiprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\jppri\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Done
+Done
+Done
+Done
+2022-3-14
+Rendering UV GBuffer for MainMenu_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for MainMenu_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_MainMenu_LMA1.lz4" 2 0 1 0
+Running ftraceRTX arealightprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_2" 1924 0 2 lights0.bin
+Running ftraceRTX batchpointlightprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_7" 1924 0 2 batchpointlight_2_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "probes" 4 0 2 comp_2.bin
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_7" 4 0 0 batchpointlight_0_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\jppri\AppData\Local\Temp\frender" "light_-1916232869_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_7" 4 0 1 batchpointlight_1_0_7.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM00.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA10.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM01.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA11.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM02.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA12.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_diffuse" 4 16 0 "gi_MainMenu_LM03.bin" "MainMenu_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_diffuse" 4 16 1 "gi_MainMenu_LMA13.bin" "MainMenu_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\jppri\AppData\Local\Temp\frender" "probes_final" 1924 16 2 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LM0_final" 4 16 0 "gi_MainMenu_LM04.bin" "MainMenu_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "MainMenu_LMA1_final" 4 16 1 "gi_MainMenu_LMA14.bin" "MainMenu_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX addsh "C:\Users\jppri\AppData\Local\Temp\frender" "probes_final_" 4 0 2 shcomp_2.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "MainMenu_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA1_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "MainMenu_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/MainMenu_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/MainMenu_LMA1_final.hdr" 1024
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Done
+Done
+Done
+Done
+2022-3-28
+Rendering UV GBuffer for Overworld_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA5.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA6.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA7.lz4" 2 0 3 0
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_4" 4 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA5" 4 0 4 comp_4.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA6" 4 0 2 comp_2.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA7" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA5_diffuse" 4 16 4 "gi_Overworld_LMA50.bin" "Overworld_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM00.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA6_diffuse" 4 16 2 "gi_Overworld_LMA60.bin" "Overworld_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA10.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA7_diffuse" 4 16 3 "gi_Overworld_LMA70.bin" "Overworld_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA5_diffuse" 4 16 4 "gi_Overworld_LMA51.bin" "Overworld_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM01.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA6_diffuse" 4 16 2 "gi_Overworld_LMA61.bin" "Overworld_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA11.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA7_diffuse" 4 16 3 "gi_Overworld_LMA71.bin" "Overworld_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA5_diffuse" 4 16 4 "gi_Overworld_LMA52.bin" "Overworld_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM02.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA6_diffuse" 4 16 2 "gi_Overworld_LMA62.bin" "Overworld_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA12.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA7_diffuse" 4 16 3 "gi_Overworld_LMA72.bin" "Overworld_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA5_diffuse" 4 16 4 "gi_Overworld_LMA53.bin" "Overworld_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM03.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA6_diffuse" 4 16 2 "gi_Overworld_LMA63.bin" "Overworld_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA13.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA7_diffuse" 4 16 3 "gi_Overworld_LMA73.bin" "Overworld_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA5_final" 4 16 4 "gi_Overworld_LMA54.bin" "Overworld_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_final" 4 16 0 "gi_Overworld_LM04.bin" "Overworld_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA6_final" 4 16 2 "gi_Overworld_LMA64.bin" "Overworld_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_final" 4 16 1 "gi_Overworld_LMA14.bin" "Overworld_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA7_final" 4 16 3 "gi_Overworld_LMA74.bin" "Overworld_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA5_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA5_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "4" "Overworld_LMA5_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "Overworld_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA6_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA6_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "2" "Overworld_LMA6_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "Overworld_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA7_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA7_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "3" "Overworld_LMA7_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA5_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA6_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA6_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA7_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA7_final.hdr" 1024
+ free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milLoaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Overworld_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA3.lz4" 2 0 3 0
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_4" 4 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA10.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM00.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA20.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA40.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA30.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA11.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM01.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA21.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA41.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA31.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA12.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM02.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA22.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA42.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA32.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA13.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM03.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA23.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA43.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA33.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_final" 4 16 1 "gi_Overworld_LMA14.bin" "Overworld_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_final" 4 16 0 "gi_Overworld_LM04.bin" "Overworld_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_final" 4 16 2 "gi_Overworld_LMA24.bin" "Overworld_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_final" 4 16 4 "gi_Overworld_LMA44.bin" "Overworld_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_final" 4 16 3 "gi_Overworld_LMA34.bin" "Overworld_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "Overworld_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "Overworld_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "2" "Overworld_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "4" "Overworld_LMA4_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA3_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "3" "Overworld_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA3_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA3_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Overworld_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA4.lz4" 2 0 4 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_4" 4 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM00.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA10.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA30.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA20.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA40.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM01.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA11.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA31.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA21.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA41.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM02.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA12.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA32.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA22.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA42.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM03.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA13.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA33.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA23.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA43.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_final" 4 16 0 "gi_Overworld_LM04.bin" "Overworld_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_final" 4 16 1 "gi_Overworld_LMA14.bin" "Overworld_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_final" 4 16 3 "gi_Overworld_LMA34.bin" "Overworld_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_final" 4 16 2 "gi_Overworld_LMA24.bin" "Overworld_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_final" 4 16 4 "gi_Overworld_LMA44.bin" "Overworld_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "Overworld_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "Overworld_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA3_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "3" "Overworld_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "2" "Overworld_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "4" "Overworld_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA3_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA4_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Overworld_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA3.lz4" 2 0 3 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_4" 4 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_3" 4 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM00.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA10.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA20.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA40.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA30.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM01.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA11.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA21.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA41.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA31.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM02.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA12.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA22.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA42.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA32.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM03.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA13.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA23.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_diffuse" 4 16 4 "gi_Overworld_LMA43.bin" "Overworld_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_diffuse" 4 16 3 "gi_Overworld_LMA33.bin" "Overworld_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_final" 4 16 0 "gi_Overworld_LM04.bin" "Overworld_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_final" 4 16 1 "gi_Overworld_LMA14.bin" "Overworld_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_final" 4 16 2 "gi_Overworld_LMA24.bin" "Overworld_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA4_final" 4 16 4 "gi_Overworld_LMA44.bin" "Overworld_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA3_final" 4 16 3 "gi_Overworld_LMA34.bin" "Overworld_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "Overworld_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "Overworld_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "2" "Overworld_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA4_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA4_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "4" "Overworld_LMA4_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA3_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "3" "Overworld_LMA3_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA4_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA3_final_HDR.lz4" "C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA3_final.hdr" 1024
+li seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
+Failed to free the context in 1000 milli seconds
