@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final_Game_Scenes/MainMenu.unity
     guid: a51bede011296bb418d7348ac86c2698
+  - enabled: 1
+    path: Assets/Scenes/Final_Game_Scenes/Overworld.unity
+    guid: b13a277a0f2001940955d81f5ec1b1f2
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 2c9d7d1c37a163a44a8c839bd934397f, type: 2}

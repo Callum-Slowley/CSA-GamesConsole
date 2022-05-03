@@ -1,14 +1,19 @@
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DataManager : MonoBehaviour
 {
     public static OptionsSaveData optionsData;
     public static PlayerSaveData playerData;
 
+    public UnityEvent onLoadOptionsData;
+    public UnityEvent onLoadPlayerData;
+
     public static void SaveOptionsData()
     {
+        Debug.Log($"Saving Options: {optionsData}");
         //Create a binary formatter to encode the data
         BinaryFormatter formatter = new BinaryFormatter();
 
@@ -95,6 +100,8 @@ public class DataManager : MonoBehaviour
     {
         DontDestroyOnLoad(this);
         TryLoadOptionsData();
+        onLoadOptionsData.Invoke();
         TryLoadPlayerData();
+        onLoadPlayerData.Invoke();
     }
 }
