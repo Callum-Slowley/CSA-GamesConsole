@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4562260802704082921}
   - component: {fileID: 1015160778048235437}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Liquid examples
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,3 +108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3188ddcc5947894aa94423b5a911041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxWobble: 0.03
+  WobbleSpeed: 1
+  Recovery: 1
+  wobbleAmountX: 0
+  wobbleAmountZ: 0
