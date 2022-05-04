@@ -1692,3 +1692,60 @@ Failed to free the context in 1000 milli seconds
 Failed to free the context in 1000 milli seconds
 Failed to free the context in 1000 milli seconds
 Failed to free the context in 1000 milli seconds
+2022-5-4
+Rendering UV GBuffer for Overworld_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Overworld_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\jppri\AppData\Local\Temp\frender" "uvpos_Overworld_LMA1.lz4" 2 0 1 0
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX batchpointlight "C:\Users\jppri\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX sun "C:\Users\jppri\AppData\Local\Temp\frender" "light_1799227949_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA20.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM00.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA10.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA21.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM01.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA11.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA22.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM02.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA12.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_diffuse" 4 16 2 "gi_Overworld_LMA23.bin" "Overworld_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_diffuse" 4 16 0 "gi_Overworld_LM03.bin" "Overworld_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_diffuse" 4 16 1 "gi_Overworld_LMA13.bin" "Overworld_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA2_final" 4 16 2 "gi_Overworld_LMA24.bin" "Overworld_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LM0_final" 4 16 0 "gi_Overworld_LM04.bin" "Overworld_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\jppri\AppData\Local\Temp\frender" "Overworld_LMA1_final" 4 16 1 "gi_Overworld_LMA14.bin" "Overworld_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "2" "Overworld_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" 4096 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "0" "Overworld_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\jppri\AppData\Local\Temp\frender" "1" "Overworld_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA2_final_HDR.lz4" "C:/Users/jppri/Documents/GitHub/CSA-GamesConsole/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LM0_final_HDR.lz4" "C:/Users/jppri/Documents/GitHub/CSA-GamesConsole/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\jppri\AppData\Local\Temp\frender/Overworld_LMA1_final_HDR.lz4" "C:/Users/jppri/Documents/GitHub/CSA-GamesConsole/CSA-GroupPrototype (1)/Assets/BakeryLightmaps/Overworld_LMA1_final.hdr" 1024

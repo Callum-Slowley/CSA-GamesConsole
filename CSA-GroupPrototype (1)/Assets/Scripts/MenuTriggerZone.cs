@@ -40,6 +40,11 @@ public class MenuTriggerZone : MonoBehaviour
         buttonPressSprite.color = tempCol;
     }
 
+    private void OnDestroy()
+    {
+        map.MainGameInput.AButton.performed -= TryActivateMenu;
+    }
+
     private void TryActivateMenu(InputAction.CallbackContext _ctx)
     {
         if (!playerInZone)

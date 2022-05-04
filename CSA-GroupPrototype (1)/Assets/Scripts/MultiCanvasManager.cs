@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public enum ButtonDirection
 {
@@ -52,31 +53,70 @@ public class MultiCanvasManager : MonoBehaviour
 
     public List<ButtonNavMapping> buttonNavigationalMappings = new List<ButtonNavMapping>();
 
-    private MainInputMapping inputMap;
+    MainInputMapping inputMap = null;
 
     private void Start()
+    {
+        //Set canvas up
+        ResetCanvas();
+    }
+
+    private void OnEnable()
     {
         inputMap = new MainInputMapping();
         inputMap.Enable();
 
         //Map the inputs
         //Direction inputs
-        inputMap.MainGameInput.DPAD_Up.performed += _ctx => MoveSelection(ButtonDirection.UP);
-        inputMap.MainGameInput.DPAD_Down.performed += _ctx => MoveSelection(ButtonDirection.DOWN);
-        inputMap.MainGameInput.DPAD_Left.performed += _ctx => MoveSelection(ButtonDirection.LEFT);
-        inputMap.MainGameInput.DPAD_Right.performed += _ctx => MoveSelection(ButtonDirection.RIGHT);
+        inputMap.MainGameInput.DPAD_Up.performed += MoveUp;
+        inputMap.MainGameInput.DPAD_Down.performed += MoveDown;
+        inputMap.MainGameInput.DPAD_Left.performed += MoveLeft;
+        inputMap.MainGameInput.DPAD_Right.performed += MoveRight;
 
         //Actions inputs
-        inputMap.MainGameInput.AButton.performed += _ctx => InvokeButtonActions();
+        inputMap.MainGameInput.AButton.performed += InvokeButtonActions;
 
-        //Set canvas up
-        ResetCanvas();
+    }
+
+    private void OnDisable()
+    {
+        //Unsubsribe from all input actions
+        //Direction inputs
+        inputMap.MainGameInput.DPAD_Up.performed -= MoveUp;
+        inputMap.MainGameInput.DPAD_Down.performed -= MoveDown;
+        inputMap.MainGameInput.DPAD_Left.performed -= MoveLeft;
+        inputMap.MainGameInput.DPAD_Right.performed -= MoveRight;
+
+        //Actions inputs
+        inputMap.MainGameInput.AButton.performed -= InvokeButtonActions;
+
+        inputMap.Disable();
     }
 
     public void ResetCanvas()
     {
         currentlySelectedButton = startingSelection;
         HighlightSelection();
+    }
+
+    private void MoveUp(InputAction.CallbackContext _ctx)
+    {
+        MoveSelection(ButtonDirection.UP);
+    }
+
+    private void MoveDown(InputAction.CallbackContext _ctx)
+    {
+        MoveSelection(ButtonDirection.DOWN);
+    }
+
+    private void MoveLeft(InputAction.CallbackContext _ctx)
+    {
+        MoveSelection(ButtonDirection.LEFT);
+    }
+
+    private void MoveRight(InputAction.CallbackContext _ctx)
+    {
+        MoveSelection(ButtonDirection.RIGHT);
     }
 
     public void MoveSelection(ButtonDirection _dir)
@@ -138,7 +178,7 @@ public class MultiCanvasManager : MonoBehaviour
         currentlySelectedButton.image.color = highlightedButtonTint;
     }
 
-    public void InvokeButtonActions()
+    public void InvokeButtonActions(InputAction.CallbackContext _ctx)
     {
         if (!this.enabled) return;
 

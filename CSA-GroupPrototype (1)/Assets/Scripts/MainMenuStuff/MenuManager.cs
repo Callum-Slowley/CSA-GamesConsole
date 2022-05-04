@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class MenuManager : MonoBehaviour
 {
@@ -71,7 +72,13 @@ public class MenuManager : MonoBehaviour
         //Map the inputs
         inputMap = new MainInputMapping();
         inputMap.Enable();
-        inputMap.MainGameInput.BackButton.performed += _ctx => GoBackToMain();
+        inputMap.MainGameInput.BackButton.performed += GoBackToMain;
+    }
+
+    private void OnDisable()
+    {
+        inputMap.MainGameInput.BackButton.performed -= GoBackToMain;
+        inputMap.Disable();
     }
 
     public void ChangeBubbleVisibility(bool _flag)
@@ -117,7 +124,7 @@ public class MenuManager : MonoBehaviour
         quitMenuManager.enabled = true;
     }
 
-    public void GoBackToMain()
+    public void GoBackToMain(InputAction.CallbackContext _ctx)
     {
         if (coolDown > 0f)
         {

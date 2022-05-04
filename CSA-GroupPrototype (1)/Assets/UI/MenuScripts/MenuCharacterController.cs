@@ -7,12 +7,20 @@ public class MenuCharacterController : MonoBehaviour
 {
     public float playerMoveSpeed = 2f;
 
+    public Camera cam;
+    public Quaternion camY;
+
     private Vector3 playerMoveInput = Vector3.zero;
     private float inputSqrMagnitude;
     private MainInputMapping inputMap;
 
     private void Start()
     {
+        if (cam == null)
+        {
+            cam = Camera.main;
+        }
+
         inputMap = new MainInputMapping();
         inputMap.Enable();
     }
@@ -51,5 +59,8 @@ public class MenuCharacterController : MonoBehaviour
         Vector2 stickInput = inputMap.MainGameInput.Move.ReadValue<Vector2>();
         playerMoveInput.x = stickInput.x;
         playerMoveInput.z = stickInput.y;
+
+        camY = Quaternion.Euler(new Vector3(0, cam.transform.eulerAngles.y, 0));
+        playerMoveInput = camY * playerMoveInput;
     }
 }

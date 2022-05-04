@@ -96,6 +96,34 @@ public class DataManager : MonoBehaviour
         }
     }
 
+    public static bool DungeonExistsInPlayerData(int _ID)
+    {
+        switch (playerData.profileSelected)
+        {
+            case 0:
+                return playerData.p1levelsUnlocked.Contains(_ID);
+            case 1:
+                return playerData.p2levelsUnlocked.Contains(_ID);
+            case 2:
+                return playerData.p3levelsUnlocked.Contains(_ID);
+        }
+        return false;
+    }
+
+    public static bool VillageExistsInPlayerData(int _ID)
+    {
+        switch (playerData.profileSelected)
+        {
+            case 0:
+                return playerData.p1villagesUnlocked.Contains(_ID);
+            case 1:
+                return playerData.p2villagesUnlocked.Contains(_ID);
+            case 2:
+                return playerData.p3villagesUnlocked.Contains(_ID);
+        }
+        return false;
+    }
+
     private void Start()
     {
         DontDestroyOnLoad(this);
