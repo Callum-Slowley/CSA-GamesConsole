@@ -60,4 +60,4 @@ crashlytics-build.properties
 
 # Stuff added manually
 [Aa]ssets/Editor/x64/Bakery/cudnn64_7.dll
-SwitchIL2CPPCache/il2cpp_cache/linkresult_BFE66570752810609662F2914DCFE6A5/SwitchPlayer.nss
+/SwitchIL2CPPCache/
