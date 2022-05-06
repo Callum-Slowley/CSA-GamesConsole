@@ -1,0 +1,378 @@
+----IL2CPP Arguments----
+--convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot --compile-cpp --platform=Switch --architecture=ARM64 --configuration=Release --outputpath=C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Library/Il2cppBuildCache/Switch\Native\SwitchPlayer.nss --cachedirectory=C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/../SwitchIL2CPPCache/il2cpp_cache --linker-flags=-n"C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Application.aarch64.lp64.nmeta" --plugin=C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/Switch/Tools\Il2CppPlugin.dll --additional-include-directories=C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\PlaybackEngines\Switch\Tools/il2cpp\bdwgc/include --additional-include-directories=C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\PlaybackEngines\Switch\Tools/il2cpp\libil2cpp/include --baselib-directory=C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Data\PlaybackEngines\Switch\Native\release --avoid-dynamic-library-copy --verbose --enable-stats --stats-output-dir=C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Assets/../SwitchIL2CPPStats --libil2cpp-static --additional-defines=DEBUGMODE=0,UNITY_RELEASE=1,IL2CPP_USE_SOCKET_MULTIPLEX_IO=1 --configuration=ReleasePlus --additional-cpp=C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Library/Il2cppBuildCache/Switch/additionalCppFiles/UnlinkedFunctions.cpp --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe --directory=C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Temp/StagingArea/Managed --generatedcppdir=C:/Users/jppri/Documents/UnityProjects/CSA-GroupPrototype (1)/Library/Il2cppBuildCache/Switch/il2cppOutput
+
+----Assemblies Converted-----
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Assembly-CSharp-firstpass.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Assembly-CSharp.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\BakeryRuntimeAssembly.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\DOTween.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Mono.Security.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\mscorlib.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\System.Configuration.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\System.Core.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\System.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\System.Xml.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Unity.InputSystem.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Unity.InputSystem.Switch.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Unity.Mathematics.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Unity.RenderPipelines.Core.Runtime.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Unity.RenderPipelines.Universal.Runtime.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\Unity.TextMeshPro.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.AIModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.AndroidJNIModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.AnimationModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.AssetBundleModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.AudioModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.CoreModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.DirectorModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.GridModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.IMGUIModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.InputLegacyModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.InputModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.JSONSerializeModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.ParticleSystemModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.Physics2DModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.PhysicsModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.SharedInternalsModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.SpriteShapeModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.SubsystemsModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.SwitchModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.TerrainModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.TextCoreModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.TextRenderingModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.TilemapModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.UI.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.UIElementsModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.UIElementsNativeModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.UIModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.UnityWebRequestModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.VFXModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.VideoModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.VRModule.dll
+	C:\Users\jppri\Documents\UnityProjects\CSA-GroupPrototype (1)\Temp\StagingArea\Managed\UnityEngine.XRModule.dll
+
+----- il2cpp Statistics -----
+General:
+	Conversion Time: 5.444 s
+	Job Count: 16
+	Processor Count: 16
+	Files Written: 304
+	String Literals: 5798
+Methods:
+	Total Methods: 46166
+	Non-Generic Methods: 24774
+	Generic Type Methods: 17413
+	Generic Methods: 3979
+	Shared Methods: 21315
+	Methods with Tail Calls : 0
+Metadata:
+	Total: 3,280.79 kb
+	String Literals: 45.30 kb
+	String Literal Data: 182.61 kb
+	Metadata Strings: 566.63 kb
+	Events: 1.69 kb
+	Properties: 99.82 kb
+	Methods: 854.25 kb
+	Parameter Default Values: 12.25 kb
+	Field Default Values: 68.04 kb
+	Field and Parameter Default Values Data: 83.54 kb
+	Field Marshaled Sizes: 15.08 kb
+	Parameters: 357.50 kb
+	Fields: 214.86 kb
+	Generic Parameters: 14.12 kb
+	Generic Parameter Constraints: 1.44 kb
+	Generic Containers: 11.47 kb
+	Nested Types: 4.77 kb
+	Interfaces: 5.27 kb
+	VTables: 159.89 kb
+	Interface Offsets: 31.02 kb
+	Type Definitions: 366.87 kb
+	Images: 1.95 kb
+	Assemblies: 3.12 kb
+	Field Refs: 0.95 kb
+	Referenced Assemblies: 1.05 kb
+	Attribute Types Ranges: 98.47 kb
+	Attribute Types: 58.79 kb
+	Unresolved Virtual Call Parameter Types: 9.86 kb
+	Unresolved Virtual Call Parameter Ranges: 6.54 kb
+	Windows Runtime type names: 0.00 kb
+	Windows Runtime strings: 0.00 kb
+	Exported Types: 3.62 kb
+Codegen:
+	NullChecks : 77790
+Interop:
+	Windows Runtime boxed types : 0
+	Windows Runtime types with names : 0
+	Native to managed interface adapters : 0
+	Array COM callable wrappers : 0
+	COM callable wrappers : 0
+	COM callable wrapper methods that were implemented : 0
+	COM callable wrapper methods that were stripped : 0
+	COM callable wrapper methods that were forwarded to call base class method : 0
+Compilation:
+	Total Files: 374
+	Files Compiled: 47
+	Cache Hits: 327
+	Cache Hit %: 87
+
+
+----Assembly Conversion Times----
+
+----Misc Timing----
+	PreProcessStage: None
+	GenericsCollector.Collect: None
+	WriteGenerics: None
+	AllAssemblyConversion: None
+
+----Generated Files----
+Assembly-CSharp.cpp	1059831
+Assembly-CSharp_Attr.cpp	35146
+Assembly-CSharp-firstpass.cpp	1583336
+Assembly-CSharp-firstpass_Attr.cpp	136431
+BakeryRuntimeAssembly.cpp	603367
+BakeryRuntimeAssembly_Attr.cpp	37368
+DOTween.cpp	1834476
+DOTween_Attr.cpp	271150
+DOTween1.cpp	1917022
+DOTween2.cpp	893128
+GenericMethods.cpp	3310366
+GenericMethods1.cpp	2556455
+GenericMethods2.cpp	3606509
+GenericMethods3.cpp	2478738
+GenericMethods4.cpp	2884098
+GenericMethods5.cpp	3382416
+GenericMethods6.cpp	2269724
+GenericMethods7.cpp	2547356
+GenericMethods8.cpp	1921173
+Generics.cpp	2874225
+Generics1.cpp	1929538
+Generics10.cpp	2062790
+Generics11.cpp	2355867
+Generics12.cpp	3482385
+Generics13.cpp	2896415
+Generics14.cpp	1583975
+Generics15.cpp	1312267
+Generics16.cpp	1305777
+Generics17.cpp	1332792
+Generics18.cpp	1435205
+Generics19.cpp	2779296
+Generics2.cpp	2320729
+Generics20.cpp	2304986
+Generics21.cpp	2077666
+Generics22.cpp	2539928
+Generics23.cpp	1944531
+Generics24.cpp	2149176
+Generics25.cpp	663128
+Generics3.cpp	1680131
+Generics4.cpp	1573691
+Generics5.cpp	3145526
+Generics6.cpp	3495159
+Generics7.cpp	2184603
+Generics8.cpp	1748190
+Generics9.cpp	2376053
+Il2CppCCalculateFieldValues.cpp	7702894
+Il2CppCCalculateFieldValues1.cpp	4061939
+Il2CppCCalculateTypeValues.cpp	10835425
+Il2CppCCFieldValuesTable.cpp	249265
+Il2CppCCTypeValuesTable.cpp	403550
+Il2CppCodeRegistration.cpp	7905
+Il2CppGenericAdjustorThunkTable.cpp	898082
+Il2CppGenericComDefinitions.cpp	173
+Il2CppGenericComDefinitions1.cpp	173
+Il2CppGenericComDefinitions10.cpp	173
+Il2CppGenericComDefinitions11.cpp	173
+Il2CppGenericComDefinitions12.cpp	173
+Il2CppGenericComDefinitions13.cpp	173
+Il2CppGenericComDefinitions14.cpp	173
+Il2CppGenericComDefinitions15.cpp	173
+Il2CppGenericComDefinitions16.cpp	173
+Il2CppGenericComDefinitions17.cpp	173
+Il2CppGenericComDefinitions18.cpp	173
+Il2CppGenericComDefinitions19.cpp	173
+Il2CppGenericComDefinitions2.cpp	173
+Il2CppGenericComDefinitions20.cpp	173
+Il2CppGenericComDefinitions21.cpp	173
+Il2CppGenericComDefinitions22.cpp	173
+Il2CppGenericComDefinitions23.cpp	173
+Il2CppGenericComDefinitions24.cpp	173
+Il2CppGenericComDefinitions25.cpp	173
+Il2CppGenericComDefinitions26.cpp	173
+Il2CppGenericComDefinitions27.cpp	173
+Il2CppGenericComDefinitions28.cpp	173
+Il2CppGenericComDefinitions29.cpp	173
+Il2CppGenericComDefinitions3.cpp	173
+Il2CppGenericComDefinitions30.cpp	173
+Il2CppGenericComDefinitions31.cpp	173
+Il2CppGenericComDefinitions32.cpp	173
+Il2CppGenericComDefinitions33.cpp	173
+Il2CppGenericComDefinitions34.cpp	173
+Il2CppGenericComDefinitions35.cpp	173
+Il2CppGenericComDefinitions36.cpp	173
+Il2CppGenericComDefinitions37.cpp	173
+Il2CppGenericComDefinitions38.cpp	173
+Il2CppGenericComDefinitions39.cpp	173
+Il2CppGenericComDefinitions4.cpp	173
+Il2CppGenericComDefinitions40.cpp	173
+Il2CppGenericComDefinitions41.cpp	173
+Il2CppGenericComDefinitions42.cpp	173
+Il2CppGenericComDefinitions43.cpp	173
+Il2CppGenericComDefinitions44.cpp	173
+Il2CppGenericComDefinitions45.cpp	173
+Il2CppGenericComDefinitions46.cpp	173
+Il2CppGenericComDefinitions47.cpp	173
+Il2CppGenericComDefinitions48.cpp	173
+Il2CppGenericComDefinitions49.cpp	173
+Il2CppGenericComDefinitions5.cpp	173
+Il2CppGenericComDefinitions50.cpp	173
+Il2CppGenericComDefinitions51.cpp	173
+Il2CppGenericComDefinitions52.cpp	173
+Il2CppGenericComDefinitions53.cpp	173
+Il2CppGenericComDefinitions6.cpp	173
+Il2CppGenericComDefinitions7.cpp	173
+Il2CppGenericComDefinitions8.cpp	173
+Il2CppGenericComDefinitions9.cpp	173
+Il2CppGenericMethodPointerTable.cpp	5286117
+Il2CppInteropDataTable.cpp	320187
+Il2CppInvokerTable.cpp	7051900
+Il2CppReversePInvokeWrapperTable.cpp	2456
+Mono.Security.cpp	142014
+Mono.Security_Attr.cpp	32922
+mscorlib.cpp	2177605
+mscorlib_Attr.cpp	898973
+mscorlib1.cpp	2376537
+mscorlib10.cpp	2291660
+mscorlib11.cpp	1579542
+mscorlib12.cpp	1688060
+mscorlib13.cpp	2242168
+mscorlib14.cpp	1981585
+mscorlib15.cpp	1912770
+mscorlib16.cpp	1952871
+mscorlib2.cpp	2034671
+mscorlib3.cpp	1756741
+mscorlib4.cpp	2182976
+mscorlib5.cpp	2073921
+mscorlib6.cpp	2188516
+mscorlib7.cpp	2084337
+mscorlib8.cpp	1849457
+mscorlib9.cpp	2370472
+System.Configuration.cpp	49703
+System.Configuration_Attr.cpp	47897
+System.Core.cpp	24620
+System.Core_Attr.cpp	85189
+System.cpp	1416547
+System.Xml.cpp	5666
+System.Xml_Attr.cpp	52406
+System_Attr.cpp	90729
+System1.cpp	1045598
+System2.cpp	935077
+System3.cpp	627740
+Unity.InputSystem.cpp	2474039
+Unity.InputSystem.Switch.cpp	339278
+Unity.InputSystem.Switch_Attr.cpp	98629
+Unity.InputSystem_Attr.cpp	1793101
+Unity.InputSystem1.cpp	2399201
+Unity.InputSystem10.cpp	651210
+Unity.InputSystem2.cpp	2998541
+Unity.InputSystem3.cpp	2265741
+Unity.InputSystem4.cpp	2385228
+Unity.InputSystem5.cpp	2629269
+Unity.InputSystem6.cpp	2673634
+Unity.InputSystem7.cpp	2568428
+Unity.InputSystem8.cpp	2714247
+Unity.InputSystem9.cpp	3090097
+Unity.Mathematics.cpp	243520
+Unity.Mathematics_Attr.cpp	33159
+Unity.RenderPipeline.Universal.ShaderLibrary.cpp	19666
+Unity.RenderPipeline.Universal.ShaderLibrary_Attr.cpp	18384
+Unity.RenderPipelines.Core.Runtime.cpp	2061137
+Unity.RenderPipelines.Core.Runtime_Attr.cpp	408767
+Unity.RenderPipelines.Core.Runtime1.cpp	2531807
+Unity.RenderPipelines.Core.Runtime2.cpp	2378330
+Unity.RenderPipelines.Universal.Runtime.cpp	2136887
+Unity.RenderPipelines.Universal.Runtime_Attr.cpp	458761
+Unity.RenderPipelines.Universal.Runtime1.cpp	2727583
+Unity.RenderPipelines.Universal.Runtime2.cpp	2847600
+Unity.RenderPipelines.Universal.Runtime3.cpp	2458788
+Unity.TextMeshPro.cpp	2629511
+Unity.TextMeshPro_Attr.cpp	255925
+Unity.TextMeshPro1.cpp	2196443
+Unity.TextMeshPro2.cpp	3311559
+Unity.TextMeshPro3.cpp	2541824
+Unity.TextMeshPro4.cpp	2006661
+Unity.TextMeshPro5.cpp	1169176
+UnityEngine.AIModule.cpp	41646
+UnityEngine.AIModule_Attr.cpp	89080
+UnityEngine.AndroidJNIModule.cpp	590946
+UnityEngine.AndroidJNIModule_Attr.cpp	143151
+UnityEngine.AnimationModule.cpp	245922
+UnityEngine.AnimationModule_Attr.cpp	165819
+UnityEngine.AssetBundleModule.cpp	38424
+UnityEngine.AssetBundleModule_Attr.cpp	79675
+UnityEngine.AudioModule.cpp	90089
+UnityEngine.AudioModule_Attr.cpp	129473
+UnityEngine.CoreModule.cpp	2310170
+UnityEngine.CoreModule_Attr.cpp	1329605
+UnityEngine.CoreModule1.cpp	2390344
+UnityEngine.CoreModule2.cpp	1807421
+UnityEngine.cpp	3258
+UnityEngine.DirectorModule.cpp	22063
+UnityEngine.DirectorModule_Attr.cpp	84263
+UnityEngine.GridModule.cpp	5237
+UnityEngine.GridModule_Attr.cpp	92818
+UnityEngine.IMGUIModule.cpp	777119
+UnityEngine.IMGUIModule_Attr.cpp	188945
+UnityEngine.InputLegacyModule.cpp	148225
+UnityEngine.InputLegacyModule_Attr.cpp	94640
+UnityEngine.InputModule.cpp	65577
+UnityEngine.InputModule_Attr.cpp	86504
+UnityEngine.JSONSerializeModule.cpp	44372
+UnityEngine.JSONSerializeModule_Attr.cpp	84138
+UnityEngine.ParticleSystemModule.cpp	73391
+UnityEngine.ParticleSystemModule_Attr.cpp	123656
+UnityEngine.Physics2DModule.cpp	187684
+UnityEngine.Physics2DModule_Attr.cpp	155327
+UnityEngine.PhysicsModule.cpp	186620
+UnityEngine.PhysicsModule_Attr.cpp	163564
+UnityEngine.SharedInternalsModule.cpp	178080
+UnityEngine.SharedInternalsModule_Attr.cpp	145662
+UnityEngine.SpriteShapeModule.cpp	4704
+UnityEngine.SpriteShapeModule_Attr.cpp	84161
+UnityEngine.SubsystemsModule.cpp	128268
+UnityEngine.SubsystemsModule_Attr.cpp	96872
+UnityEngine.SwitchModule.cpp	90857
+UnityEngine.SwitchModule_Attr.cpp	122758
+UnityEngine.TerrainModule.cpp	282416
+UnityEngine.TerrainModule_Attr.cpp	108933
+UnityEngine.TextCoreModule.cpp	291403
+UnityEngine.TextCoreModule_Attr.cpp	143639
+UnityEngine.TextRenderingModule.cpp	207538
+UnityEngine.TextRenderingModule_Attr.cpp	103285
+UnityEngine.TilemapModule.cpp	95218
+UnityEngine.TilemapModule_Attr.cpp	117431
+UnityEngine.UI.cpp	2350068
+UnityEngine.UI_Attr.cpp	342953
+UnityEngine.UI1.cpp	1538367
+UnityEngine.UI2.cpp	1877601
+UnityEngine.UI3.cpp	1458402
+UnityEngine.UIElementsModule.cpp	11691
+UnityEngine.UIElementsModule_Attr.cpp	72686
+UnityEngine.UIElementsNativeModule.cpp	106177
+UnityEngine.UIElementsNativeModule_Attr.cpp	99953
+UnityEngine.UIModule.cpp	228858
+UnityEngine.UIModule_Attr.cpp	122314
+UnityEngine.UnityWebRequestModule.cpp	60759
+UnityEngine.UnityWebRequestModule_Attr.cpp	78252
+UnityEngine.VFXModule.cpp	98332
+UnityEngine.VFXModule_Attr.cpp	129133
+UnityEngine.VideoModule.cpp	86387
+UnityEngine.VideoModule_Attr.cpp	113739
+UnityEngine.VRModule.cpp	52911
+UnityEngine.VRModule_Attr.cpp	102738
+UnityEngine.XRModule.cpp	372370
+UnityEngine.XRModule_Attr.cpp	169719
+UnityEngine_Attr.cpp	10954
+UnlinkedFunctions.cpp	331
+UnresolvedVirtualCallStubs.cpp	891181
+
