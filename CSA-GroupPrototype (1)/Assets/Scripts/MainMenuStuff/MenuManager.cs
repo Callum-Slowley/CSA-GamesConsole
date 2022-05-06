@@ -154,7 +154,6 @@ public class MenuManager : MonoBehaviour
             Debug.Log("Closing the options menu...");
             optionsCanvas.SetActive(false);
             //Save any changes to the disk
-            DataManager.SaveOptionsData();
         }
         else if (quitCanvas.activeSelf)
         {

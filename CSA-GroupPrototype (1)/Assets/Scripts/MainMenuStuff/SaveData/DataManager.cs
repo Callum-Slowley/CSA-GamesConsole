@@ -11,89 +11,24 @@ public class DataManager : MonoBehaviour
     public UnityEvent onLoadOptionsData;
     public UnityEvent onLoadPlayerData;
 
-    public static void SaveOptionsData()
+    private void InitializeData()
     {
-        Debug.Log($"Saving Options: {optionsData}");
-        //Create a binary formatter to encode the data
-        BinaryFormatter formatter = new BinaryFormatter();
+        optionsData = new OptionsSaveData();
+        optionsData.resWidth = 1280;
+        optionsData.resHeight = 720;
+        optionsData.vSync = true;
+        optionsData.UIMode = 0;
+        optionsData.stickSensitivity = 1f;
 
-        //Create a path for this specific application and add the filrname
-        string path = Application.persistentDataPath + "OptionsData.thingo";
-        //Open a data stream
-        FileStream stream = new FileStream(path, FileMode.Create);
+        playerData = new PlayerSaveData();
+        playerData.profileSelected = 0;
+        playerData.p1levelsUnlocked = 0;
+        playerData.p1villagesUnlocked = 0;
+        playerData.p2levelsUnlocked = 0;
+        playerData.p2villagesUnlocked = 0;
+        playerData.p3levelsUnlocked = 0;
+        playerData.p3villagesUnlocked = 0;
 
-        //Serialize the data and save it to the binary file
-        formatter.Serialize(stream, optionsData);
-        stream.Close();
-    }
-
-    public static void TryLoadOptionsData()
-    {
-        //Try to open the file at the path
-        string path = Application.persistentDataPath + "OptionsData.thingo";
-
-        //If save data exists, load it, deserialize it and return it
-        if (File.Exists(path))
-        {
-            BinaryFormatter formatter = new BinaryFormatter();
-            FileStream stream = new FileStream(path, FileMode.Open);
-
-            OptionsSaveData progData = formatter.Deserialize(stream) as OptionsSaveData;
-            stream.Close();
-            optionsData = progData;
-        }
-        else
-        {
-            Debug.LogWarning("options save data does not exist!");
-            //Options do not exist. Make a new file with default values
-            optionsData = new OptionsSaveData();
-            optionsData.resWidth = 1280;
-            optionsData.resHeight = 720;
-            optionsData.vSync = true;
-            optionsData.UIMode = 0;
-            optionsData.controlScheme = 0;
-            optionsData.stickSensitivity = 1.0f;
-            SaveOptionsData();
-        }
-    }
-
-    public static void SavePlayerData()
-    {
-        //Create a binary formatter to encode the data
-        BinaryFormatter formatter = new BinaryFormatter();
-
-        //Create a path for this specific application and add the filrname
-        string path = Application.persistentDataPath + "PlayerData.thingo";
-        //Open a data stream
-        FileStream stream = new FileStream(path, FileMode.Create);
-
-        //Serialize the data and save it to the binary file
-        formatter.Serialize(stream, playerData);
-        stream.Close();
-    }
-
-    public static void TryLoadPlayerData()
-    {
-        //Try to open the file at the path
-        string path = Application.persistentDataPath + "PlayerData.thingo";
-
-        //If save data exists, load it, deserialize it and return it
-        if (File.Exists(path))
-        {
-            BinaryFormatter formatter = new BinaryFormatter();
-            FileStream stream = new FileStream(path, FileMode.Open);
-
-            PlayerSaveData progData = formatter.Deserialize(stream) as PlayerSaveData;
-            stream.Close();
-            playerData = progData;
-        }
-        else
-        {
-            Debug.LogWarning("player save data does not exist!");
-            //Options do not exist. Make a new file with default values
-            playerData = new PlayerSaveData();
-            SavePlayerData();
-        }
     }
 
     public static bool DungeonExistsInPlayerData(int _ID)
@@ -101,11 +36,11 @@ public class DataManager : MonoBehaviour
         switch (playerData.profileSelected)
         {
             case 0:
-                return playerData.p1levelsUnlocked.Contains(_ID);
+                return playerData.p1levelsUnlocked >= _ID;
             case 1:
-                return playerData.p2levelsUnlocked.Contains(_ID);
+                return playerData.p2levelsUnlocked >= _ID;
             case 2:
-                return playerData.p3levelsUnlocked.Contains(_ID);
+                return playerData.p3levelsUnlocked >= _ID;
         }
         return false;
     }
@@ -115,11 +50,11 @@ public class DataManager : MonoBehaviour
         switch (playerData.profileSelected)
         {
             case 0:
-                return playerData.p1villagesUnlocked.Contains(_ID);
+                return playerData.p1villagesUnlocked >= _ID;
             case 1:
-                return playerData.p2villagesUnlocked.Contains(_ID);
+                return playerData.p2villagesUnlocked >= _ID;
             case 2:
-                return playerData.p3villagesUnlocked.Contains(_ID);
+                return playerData.p3villagesUnlocked >= _ID;
         }
         return false;
     }
@@ -127,9 +62,8 @@ public class DataManager : MonoBehaviour
     private void Start()
     {
         DontDestroyOnLoad(this);
-        TryLoadOptionsData();
+        InitializeData();
         onLoadOptionsData.Invoke();
-        TryLoadPlayerData();
         onLoadPlayerData.Invoke();
     }
 }
