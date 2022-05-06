@@ -123,10 +123,10 @@ MonoBehaviour:
   Path: Assets/FMOD (DO NOT TOUCH)/Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637874363727214554
+  lastModified: 637874429443530367
   FileSizes:
   - Name: Desktop
-    Value: 939968
+    Value: 1042560
   Exists: 1
 --- !u!114 &-4045684740872743146
 MonoBehaviour:
@@ -170,11 +170,38 @@ MonoBehaviour:
   Path: Assets/FMOD (DO NOT TOUCH)/Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637874363727214554
+  lastModified: 637874425439135996
   FileSizes:
   - Name: Desktop
-    Value: 1344
+    Value: 1386
   Exists: 1
+--- !u!114 &-2560913814270882322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Arrow woosh
+  m_EditorClassIdentifier: 
+  Path: event:/Arrow woosh
+  Guid:
+    Data1: -811106673
+    Data2: 1169191170
+    Data3: 994275208
+    Data4: -1175350221
+  Banks:
+  - {fileID: -4128202045321172811}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-395814322270592811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,10 +244,10 @@ MonoBehaviour:
   Path: Assets/FMOD (DO NOT TOUCH)/Project/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 637874363727164686
+  lastModified: 637874425439086110
   FileSizes:
   - Name: Desktop
-    Value: 2042816
+    Value: 2042752
   Exists: 1
 --- !u!114 &-184406564601467766
 MonoBehaviour:
@@ -270,12 +297,13 @@ MonoBehaviour:
   - {fileID: 6185628471572273688}
   - {fileID: -9109260205750592220}
   - {fileID: -7691066858941361663}
+  - {fileID: -2560913814270882322}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4128202045321172811}
   StringsBanks:
   - {fileID: -3237613721562142608}
-  cacheTime: 637874363727224543
+  cacheTime: 637874429443530367
   cacheVersion: 10
 --- !u!114 &332873957789434233
 MonoBehaviour:
@@ -351,11 +379,11 @@ MonoBehaviour:
   - {fileID: -326808769112482945}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 80000
 --- !u!114 &5060088463343893442
 MonoBehaviour:
   m_ObjectHideFlags: 0

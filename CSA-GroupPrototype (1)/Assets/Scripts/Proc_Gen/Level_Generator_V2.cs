@@ -43,7 +43,7 @@ public class Level_Generator_V2 : MonoBehaviour
 
     //Private generation data
     private float chanceMaxVal;
-    private bool noSpawnStairs;
+    private bool noSpawnStairs = false;
     private List<Transform> tempPointsBuffer = new List<Transform>();
     private List<Transform> openPoints = new List<Transform>();
     private List<Bounds> lastRoomBounds = new List<Bounds>();
@@ -146,13 +146,13 @@ public class Level_Generator_V2 : MonoBehaviour
             //Stairs
             if (noSpawnStairs == false)
             {
-                return stairs[Random.Range(0, stairs.Length)];
                 noSpawnStairs = true;
+                return stairs[Random.Range(0, stairs.Length)];
             }
             else
             {
-                return rooms[Random.Range(0, lrgRooms.Length)];
                 noSpawnStairs = false;
+                return rooms[Random.Range(0, lrgRooms.Length)];
             }
         }
         else
