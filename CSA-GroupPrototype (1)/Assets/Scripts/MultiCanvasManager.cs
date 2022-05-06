@@ -55,16 +55,23 @@ public class MultiCanvasManager : MonoBehaviour
 
     MainInputMapping inputMap = null;
 
+    [Header("FMOD Emitter")]
+    public FMODUnity.StudioEventEmitter Confirm;
+    public FMODUnity.StudioEventEmitter Back;
+
     private void Start()
     {
         //Set canvas up
         ResetCanvas();
+
+
     }
 
     private void OnEnable()
     {
         inputMap = new MainInputMapping();
         inputMap.Enable();
+
 
         //Map the inputs
         //Direction inputs

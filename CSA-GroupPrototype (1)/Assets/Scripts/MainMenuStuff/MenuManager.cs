@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+using FMODUnity;
 
 public class MenuManager : MonoBehaviour
 {
@@ -27,6 +28,10 @@ public class MenuManager : MonoBehaviour
     public GameObject saveBubble;
     public GameObject optionsBubble;
     public GameObject quitBubble;
+
+    [Header("FMOD Emitter")]
+    public StudioEventEmitter Confirm;
+    public StudioEventEmitter Back;
 
     [Header("MultiCanvasManagers")]
     public MultiCanvasManager saveMenuManager;
@@ -96,6 +101,7 @@ public class MenuManager : MonoBehaviour
         camera.transform.DOMove(saveTransform.position, transitionTime);
         camera.transform.DORotate(saveTransform.rotation.eulerAngles, transitionTime);
         ChangeBubbleVisibility(false);
+        Confirm.Play();
 
         saveMenuManager.enabled = true;
     }
@@ -108,6 +114,7 @@ public class MenuManager : MonoBehaviour
         camera.transform.DOMove(optionsTransform.position, transitionTime);
         camera.transform.DORotate(optionsTransform.rotation.eulerAngles, transitionTime);
         ChangeBubbleVisibility(false);
+        Confirm.Play();
 
         optionsMenuManager.enabled = true;
     }
@@ -120,6 +127,7 @@ public class MenuManager : MonoBehaviour
         camera.transform.DOMove(quitTransform.position, transitionTime);
         camera.transform.DORotate(quitTransform.rotation.eulerAngles, transitionTime);
         ChangeBubbleVisibility(false);
+        Confirm.Play();
 
         quitMenuManager.enabled = true;
     }
@@ -130,6 +138,7 @@ public class MenuManager : MonoBehaviour
         {
             return;
         }
+        Back.Play();
         Debug.Log("Going back");
         //Find which canvas was open
         if (savesCanvas.activeSelf)
