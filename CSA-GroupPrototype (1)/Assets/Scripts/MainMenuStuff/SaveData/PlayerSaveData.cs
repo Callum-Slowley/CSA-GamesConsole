@@ -7,15 +7,12 @@ public class PlayerSaveData
 {
     public int profileSelected = 0;
 
-    public List<int> p1levelsUnlocked = new List<int>();
-    public List<int> p1villagesUnlocked = new List<int>();
-    public List<int> p1items = new List<int>();
+    public int p1levelsUnlocked = 0;
+    public int p1villagesUnlocked = 0;
 
-    public List<int> p2levelsUnlocked = new List<int>();
-    public List<int> p2villagesUnlocked = new List<int>();
-    public List<int> p2items = new List<int>();
+    public int p2levelsUnlocked = 0;
+    public int p2villagesUnlocked = 0;
 
-    public List<int> p3levelsUnlocked = new List<int>();
-    public List<int> p3villagesUnlocked = new List<int>();
-    public List<int> p3items = new List<int>();
+    public int p3levelsUnlocked = 0;
+    public int p3villagesUnlocked = 0;
 }

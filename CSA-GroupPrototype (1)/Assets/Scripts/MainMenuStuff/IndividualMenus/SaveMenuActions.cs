@@ -49,21 +49,17 @@ public class SaveMenuActions : MonoBehaviour
         switch (_id)
         {
             case 0:
-                DataManager.playerData.p1levelsUnlocked = new List<int>();
-                DataManager.playerData.p1villagesUnlocked = new List<int>();
-                DataManager.playerData.p1items = new List<int>();
+                DataManager.playerData.p1levelsUnlocked = 0;
+                DataManager.playerData.p1villagesUnlocked = 0;
                 break;
             case 1:
-                DataManager.playerData.p2levelsUnlocked = new List<int>();
-                DataManager.playerData.p2villagesUnlocked = new List<int>();
-                DataManager.playerData.p2items = new List<int>();
+                DataManager.playerData.p2levelsUnlocked = 0;
+                DataManager.playerData.p2villagesUnlocked = 0;
                 break;
             case 2:
-                DataManager.playerData.p3levelsUnlocked = new List<int>();
-                DataManager.playerData.p3villagesUnlocked = new List<int>();
-                DataManager.playerData.p3items = new List<int>();
+                DataManager.playerData.p3levelsUnlocked = 0;
+                DataManager.playerData.p3villagesUnlocked = 0;
                 break;
         }
-        DataManager.SavePlayerData();
     }
 }
