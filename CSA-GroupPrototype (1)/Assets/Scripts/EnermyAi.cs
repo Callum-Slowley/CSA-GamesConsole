@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnermyArcherAi : MonoBehaviour
+public class EnermyAi : MonoBehaviour
 {
     public NavMeshAgent agent;
     public Transform player;
