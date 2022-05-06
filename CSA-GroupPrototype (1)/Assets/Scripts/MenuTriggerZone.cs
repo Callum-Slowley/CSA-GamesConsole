@@ -28,6 +28,10 @@ public class MenuTriggerZone : MonoBehaviour
 
     private bool playerInZone = false;
 
+    [Header("FMOD Emitter")]
+    public FMODUnity.StudioEventEmitter Confirm;
+    public FMODUnity.StudioEventEmitter Back;
+
     private void Start()
     {
         map = new MainInputMapping();
@@ -53,6 +57,7 @@ public class MenuTriggerZone : MonoBehaviour
         }
         else
         {
+            Confirm.Play();
             switch (connectedMenu)
             {
                 case MenuConnection.SAVES:
