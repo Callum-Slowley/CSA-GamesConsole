@@ -89,13 +89,17 @@ public class EnermyAi : MonoBehaviour
         animator.SetBool("IsAttacking", false);
     }
 
-    public void attack()
+    public void Archerattack()
     {
         Rigidbody rb = Instantiate(projectile, firingPoint.transform.position, Quaternion.identity).GetComponent<Rigidbody>();
         rb.AddForce(firingPoint.transform.forward * 32f, ForceMode.Impulse);
         rb.transform.LookAt(player);
         attacked = true;
         Invoke(nameof(ResetAttack), timeBetweenAttacks);
+    }
+    public void MeleeAttack()
+    {
+        
     }
     //used to visualise stuff
     void OnDrawGizmosSelected()

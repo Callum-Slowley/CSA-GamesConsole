@@ -60780,7 +60780,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 3.5666666
-    functionName: attack
+    functionName: Archerattack
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
