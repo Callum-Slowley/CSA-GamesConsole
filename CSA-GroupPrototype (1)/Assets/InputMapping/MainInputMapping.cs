@@ -40,7 +40,7 @@ public partial class @MainInputMapping : IInputActionCollection2, IDisposable
                     ""type"": ""Value"",
                     ""id"": ""3ff9a2c4-d252-40a4-9b5e-b056da7a28af"",
                     ""expectedControlType"": ""Vector2"",
-                    ""processors"": """",
+                    ""processors"": ""StickDeadzone"",
                     ""interactions"": """"
                 },
                 {
@@ -119,6 +119,14 @@ public partial class @MainInputMapping : IInputActionCollection2, IDisposable
                     ""name"": ""DPAD_Right"",
                     ""type"": ""Button"",
                     ""id"": ""f5387350-8573-4e62-80f6-923e10e364f1"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": ""AxisDeadzone"",
+                    ""interactions"": ""Press(behavior=1)""
+                },
+                {
+                    ""name"": ""PauseGame"",
+                    ""type"": ""Button"",
+                    ""id"": ""d3a6924f-40c0-4ff9-abf5-82cca8f1c76d"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": ""AxisDeadzone"",
                     ""interactions"": ""Press(behavior=1)""
@@ -344,6 +352,17 @@ public partial class @MainInputMapping : IInputActionCollection2, IDisposable
                     ""action"": ""DPAD_Right"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4d2e6840-d61d-4e2e-bbb8-1d1795382b83"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PauseGame"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -376,6 +395,7 @@ public partial class @MainInputMapping : IInputActionCollection2, IDisposable
         m_MainGameInput_DPAD_Down = m_MainGameInput.FindAction("DPAD_Down", throwIfNotFound: true);
         m_MainGameInput_DPAD_Left = m_MainGameInput.FindAction("DPAD_Left", throwIfNotFound: true);
         m_MainGameInput_DPAD_Right = m_MainGameInput.FindAction("DPAD_Right", throwIfNotFound: true);
+        m_MainGameInput_PauseGame = m_MainGameInput.FindAction("PauseGame", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -447,6 +467,7 @@ public partial class @MainInputMapping : IInputActionCollection2, IDisposable
     private readonly InputAction m_MainGameInput_DPAD_Down;
     private readonly InputAction m_MainGameInput_DPAD_Left;
     private readonly InputAction m_MainGameInput_DPAD_Right;
+    private readonly InputAction m_MainGameInput_PauseGame;
     public struct MainGameInputActions
     {
         private @MainInputMapping m_Wrapper;
@@ -463,6 +484,7 @@ public partial class @MainInputMapping : IInputActionCollection2, IDisposable
         public InputAction @DPAD_Down => m_Wrapper.m_MainGameInput_DPAD_Down;
         public InputAction @DPAD_Left => m_Wrapper.m_MainGameInput_DPAD_Left;
         public InputAction @DPAD_Right => m_Wrapper.m_MainGameInput_DPAD_Right;
+        public InputAction @PauseGame => m_Wrapper.m_MainGameInput_PauseGame;
         public InputActionMap Get() { return m_Wrapper.m_MainGameInput; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -508,6 +530,9 @@ public partial class @MainInputMapping : IInputActionCollection2, IDisposable
                 @DPAD_Right.started -= m_Wrapper.m_MainGameInputActionsCallbackInterface.OnDPAD_Right;
                 @DPAD_Right.performed -= m_Wrapper.m_MainGameInputActionsCallbackInterface.OnDPAD_Right;
                 @DPAD_Right.canceled -= m_Wrapper.m_MainGameInputActionsCallbackInterface.OnDPAD_Right;
+                @PauseGame.started -= m_Wrapper.m_MainGameInputActionsCallbackInterface.OnPauseGame;
+                @PauseGame.performed -= m_Wrapper.m_MainGameInputActionsCallbackInterface.OnPauseGame;
+                @PauseGame.canceled -= m_Wrapper.m_MainGameInputActionsCallbackInterface.OnPauseGame;
             }
             m_Wrapper.m_MainGameInputActionsCallbackInterface = instance;
             if (instance != null)
@@ -548,6 +573,9 @@ public partial class @MainInputMapping : IInputActionCollection2, IDisposable
                 @DPAD_Right.started += instance.OnDPAD_Right;
                 @DPAD_Right.performed += instance.OnDPAD_Right;
                 @DPAD_Right.canceled += instance.OnDPAD_Right;
+                @PauseGame.started += instance.OnPauseGame;
+                @PauseGame.performed += instance.OnPauseGame;
+                @PauseGame.canceled += instance.OnPauseGame;
             }
         }
     }
@@ -575,5 +603,6 @@ public partial class @MainInputMapping : IInputActionCollection2, IDisposable
         void OnDPAD_Down(InputAction.CallbackContext context);
         void OnDPAD_Left(InputAction.CallbackContext context);
         void OnDPAD_Right(InputAction.CallbackContext context);
+        void OnPauseGame(InputAction.CallbackContext context);
     }
 }

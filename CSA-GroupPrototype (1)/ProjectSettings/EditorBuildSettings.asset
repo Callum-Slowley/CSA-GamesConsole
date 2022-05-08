@@ -14,5 +14,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final_Game_Scenes/Overworld.unity
     guid: b13a277a0f2001940955d81f5ec1b1f2
+  - enabled: 1
+    path: Assets/Scenes/Final_Game_Scenes/Dungeons/D1/Dungeon_1_Level1.unity
+    guid: 2eb3b920eb60b2c4caef38698c178e5c
+  - enabled: 1
+    path: Assets/Scenes/Final_Game_Scenes/Dungeons/D2/Dungeon_2_Level1.unity
+    guid: f49c192dcd253a14689135d36b299e4c
+  - enabled: 1
+    path: Assets/Scenes/Final_Game_Scenes/Dungeons/D3/Dungeon_3_Level1.unity
+    guid: 44c86a8d790a4034a9a8cfb20fa8fc7d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 2c9d7d1c37a163a44a8c839bd934397f, type: 2}

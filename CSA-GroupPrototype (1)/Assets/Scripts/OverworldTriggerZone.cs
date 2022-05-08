@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public enum LevelType
 {
     DUNGEON,
-    VILLAGE
+    VILLAGE,
+    OVERWOLRD
 }
 
 public class OverworldTriggerZone : MonoBehaviour
@@ -47,6 +49,8 @@ public class OverworldTriggerZone : MonoBehaviour
             case LevelType.VILLAGE:
                 locked = levelManager.CheckVillageLocked(levelID);
                 break;
+            default:
+                break;
         }
     }
 
@@ -69,6 +73,11 @@ public class OverworldTriggerZone : MonoBehaviour
         if (!playerInZone)
         {
             return;
+        }
+        if (lType == LevelType.OVERWOLRD)
+        {
+            Debug.Log("Going to the overworld");
+            SceneManager.LoadScene("Overworld");
         }
         else
         {

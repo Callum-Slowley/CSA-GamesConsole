@@ -18,7 +18,7 @@
                     "type": "Value",
                     "id": "3ff9a2c4-d252-40a4-9b5e-b056da7a28af",
                     "expectedControlType": "Vector2",
-                    "processors": "",
+                    "processors": "StickDeadzone",
                     "interactions": ""
                 },
                 {
@@ -97,6 +97,14 @@
                     "name": "DPAD_Right",
                     "type": "Button",
                     "id": "f5387350-8573-4e62-80f6-923e10e364f1",
+                    "expectedControlType": "Button",
+                    "processors": "AxisDeadzone",
+                    "interactions": "Press(behavior=1)"
+                },
+                {
+                    "name": "PauseGame",
+                    "type": "Button",
+                    "id": "d3a6924f-40c0-4ff9-abf5-82cca8f1c76d",
                     "expectedControlType": "Button",
                     "processors": "AxisDeadzone",
                     "interactions": "Press(behavior=1)"
@@ -320,6 +328,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "DPAD_Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d2e6840-d61d-4e2e-bbb8-1d1795382b83",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PauseGame",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
