@@ -123,10 +123,10 @@ MonoBehaviour:
   Path: Assets/FMOD (DO NOT TOUCH)/Project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637874429443530367
+  lastModified: 637876833839191976
   FileSizes:
   - Name: Desktop
-    Value: 1042560
+    Value: 1111488
   Exists: 1
 --- !u!114 &-4045684740872743146
 MonoBehaviour:
@@ -155,6 +155,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3772792032122726015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footstep
+  m_EditorClassIdentifier: 
+  Path: event:/Footstep
+  Guid:
+    Data1: 401956121
+    Data2: 1193739944
+    Data3: -1481992027
+    Data4: 67837356
+  Banks:
+  - {fileID: -4128202045321172811}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3237613721562142608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,10 +197,10 @@ MonoBehaviour:
   Path: Assets/FMOD (DO NOT TOUCH)/Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637874425439135996
+  lastModified: 637876833839221955
   FileSizes:
   - Name: Desktop
-    Value: 1386
+    Value: 1426
   Exists: 1
 --- !u!114 &-2560913814270882322
 MonoBehaviour:
@@ -244,7 +271,7 @@ MonoBehaviour:
   Path: Assets/FMOD (DO NOT TOUCH)/Project/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 637874425439086110
+  lastModified: 637876833838601715
   FileSizes:
   - Name: Desktop
     Value: 2042752
@@ -264,7 +291,7 @@ MonoBehaviour:
   Path: Assets/FMOD (DO NOT TOUCH)/Project/Build/Desktop/UI Sounds.bank
   Name: UI Sounds
   StudioPath: bank:/UI Sounds
-  lastModified: 637874363727224543
+  lastModified: 637876833839437050
   FileSizes:
   - Name: Desktop
     Value: 44320
@@ -298,12 +325,13 @@ MonoBehaviour:
   - {fileID: -9109260205750592220}
   - {fileID: -7691066858941361663}
   - {fileID: -2560913814270882322}
+  - {fileID: -3772792032122726015}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4128202045321172811}
   StringsBanks:
   - {fileID: -3237613721562142608}
-  cacheTime: 637874429443530367
+  cacheTime: 637876833839437050
   cacheVersion: 10
 --- !u!114 &332873957789434233
 MonoBehaviour:
@@ -399,7 +427,7 @@ MonoBehaviour:
   Path: Assets/FMOD (DO NOT TOUCH)/Project/Build/Desktop/Magic.bank
   Name: Magic
   StudioPath: bank:/Magic
-  lastModified: 637874363727174666
+  lastModified: 637876833838801798
   FileSizes:
   - Name: Desktop
     Value: 99808

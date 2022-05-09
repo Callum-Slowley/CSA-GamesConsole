@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{04328372-e3f1-4332-aa40-18a7669a5678}">
+		<property name="assetPath">
+			<value>Assets/RPG &amp; Dungeon Sounds/Craft and Environment/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80e5dad6-cb7c-45ed-ab3b-f88f71939f24}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{156a5de5-03d0-4066-8734-606945ca1767}">
+		<property name="assetPath">
+			<value>Assets/RPG &amp; Dungeon Sounds/Craft and Environment/Stone Impact 2_5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{80e5dad6-cb7c-45ed-ab3b-f88f71939f24}</destination>
+		</relationship>
+	</object>
+</objects>
